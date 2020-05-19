@@ -13,7 +13,7 @@ cd OPEN-BS/
 
 ### 2. check the requirements software in [requirements.txt](requirements.txt)
 
-### 3. to get skeleton keypoint (pose estimation library) you have to install [tf-pose-estimation](https://github.com/ildoonet/tf-pose-estimation) first (if you don't this programe will not be able to run)
+### 3. to get skeleton keypoint (pose estimation library) you have to install [tf-pose-estimation](https://github.com/ildoonet/tf-pose-estimation) first (if you don't this program will not be able to run)
 
 ### 4. run
 
@@ -25,12 +25,12 @@ or
 ```
 python 01_OPENBS_Test.py
 ```
-for this version you can use video source from webcam (automatically)
+for this version, you can use video source from webcam (automatically)
 
-## This Program can working on CPU but if you need to use it on GPU
+## This program can work on CPU but if you need to use it on GPU
 
 please read the requirement software from [tf-pose-estimation](https://github.com/ildoonet/tf-pose-estimation)
 
 and I Recommently !! you should use Nvidia GPU (at least GTX1060) and check about tensorflow build with CUDA and cuDNN versions support (Yes I have my own with RTX2060 and have a lot of problem with tensorflow version and CUDA version)
 
-Before you go please don't you this for commercial until I update this Project with higher accuracy.
+Before you go please don't use this for commercial until I update this Project with higher accuracy.
