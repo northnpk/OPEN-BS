@@ -6,19 +6,26 @@ This is my first project that I'm working with Machine Learning .Hope you guys e
 ## Installation Guide
 
 ### 1. just git or download this project to your dir
+```
+git clone https://github.com/northnpk/OPEN-BS.git
+cd OPEN-BS/
+```
 
 ### 2. check the requirements software in [requirements.txt](requirements.txt)
 
-### 3. to use pose estimation in this project to get skeleton keypoint you have to install [tf-pose-estimation](https://github.com/ildoonet/tf-pose-estimation) first (if you don't this programe will not be able to run)
+### 3. to get skeleton keypoint (pose estimation library) you have to install [tf-pose-estimation](https://github.com/ildoonet/tf-pose-estimation) first (if you don't this programe will not be able to run)
 
 ### 4. run
 
 To run the code use 
 ```
-cd src/
-python3 s5_test.py
+python3 01_OPENBS_Test.py
 ```
-before use this Program you should check the [requirements software of this project](requirements.txt) first
+or
+```
+python 01_OPENBS_Test.py
+```
+for this version you can use video source from webcam (automatically)
 
 ## This Program can working on CPU but if you need to use it on GPU
 
