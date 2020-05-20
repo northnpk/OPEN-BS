@@ -63,6 +63,6 @@ and I Recommently !! you should use Nvidia GPU (at least GTX 1060) and check abo
 
 Before you go please don't use this for commercial until I update this Project with higher accuracy.
 
-And This project was supported by JSTP and NSTDA before use it please check [license.txt](license.txt)
+And This project was supported by JSTP and NSTDA before use it please check [LICENSE.txt](LICENSE.txt)
 
 Thanks!
