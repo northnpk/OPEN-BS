@@ -35,7 +35,7 @@ I've try it on Python version 3 but on python 2 It could be run on.
 python3 01_OPEN-BS_Test.py \
     --model_path model/trained_classifier.pickle \
     --data_type video \
-    --data_path data_test/exercise.avi \
+    --data_path data_test/video.avi \
     --output_folder output
 ```
 ## run on a folder of images
@@ -43,12 +43,12 @@ python3 01_OPEN-BS_Test.py \
 python3 01_OPEN-BS_Test.py \
     --model_path model/trained_classifier.pickle \
     --data_type folder \
-    --data_path data_test/apple/ \
+    --data_path data_test/path \
     --output_folder output
 ```
 ## run on webcam
 ```
-python 01_OPEN-BS_Test .py \
+python3 01_OPEN-BS_Test .py \
     --model_path model/trained_classifier.pickle \
     --data_type webcam \
     --data_path 0 \
@@ -62,3 +62,7 @@ please read the requirement software from [tf-pose-estimation](https://github.co
 and I Recommently !! you should use Nvidia GPU (at least GTX 1060) and check about tensorflow build with CUDA and cuDNN versions support (Yes I have my own with RTX 2060 and have a lot of problem with tensorflow version and CUDA version)
 
 Before you go please don't use this for commercial until I update this Project with higher accuracy.
+
+And This project was supported by JSTP and NSTDA before use it please check [license.txt](license.txt)
+
+Thanks!
